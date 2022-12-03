@@ -1,0 +1,6 @@
+#!/bin/bash
+cd Desktop/FamilyFeud
+echo Starting Family Feud
+python3 helpers/get_ip_address.py
+npm run watch &
+python3 feud_page.py
